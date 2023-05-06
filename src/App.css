@@ -1,0 +1,79 @@
+.container {
+  background-color: red;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 1px;
+}
+
+.wrapper {
+  background-color: green;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 1px;
+}
+
+.hyba {
+  margin: 30px ;
+  display: flex;
+  flex-direction: column; /* ajouter la propriété display:flex */
+}
+h1 {
+  color: #2110b8;
+  text-align: center;
+  margin: 20px 0 ;
+}
+h2 {
+  color: black;
+  text-align : center ;
+  margin: 15px 0;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+thead th {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+tbody td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+tbody td:nth-child(2) {
+  text-align: center;
+}
+.data-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.separator {
+  width: 2px;
+  height: 40px;
+  background-color: black;
+  margin: 0 20px;
+}
+
+.data-item {
+  padding: 0 20px;
+}
+
+h3 {
+  color: #333;
+  text-align: center;
+  margin: 20px 0;
+}
